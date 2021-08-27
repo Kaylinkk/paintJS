@@ -16,9 +16,6 @@ context.strokeStyle =INITIAL_COLOR;
 context.fillStyle = INITIAL_COLOR;
 context.lineWidth = 2.5;
 
-
-
-
 let painting = false;
 let filling = false;
 
