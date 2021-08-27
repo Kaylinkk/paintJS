@@ -5,8 +5,8 @@ const range = document.getElementById("jsRange");
 const mode = document.getElementById("jsMode");
 const save = document.getElementById("jsSave");
 
-canvas.width = document.getElementsByClassName("canvas")[0].offsetWidth;
-canvas.height = document.getElementsByClassName("canvas")[0].offsetHeight;
+canvas.width = document.getElementsByClassName("canvas")[0].innerWidth;
+canvas.height = document.getElementsByClassName("canvas")[0].innerHeight;
 
 const INITIAL_COLOR = "#2c2c2c";
 
